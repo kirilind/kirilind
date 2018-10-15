@@ -1,7 +1,9 @@
 <p>
-{% for page in site.pages %}
-{% if page.title %}
-<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }} &raquo;</a><br/>
-{% endif %}
-{% endfor %}
+  {% for page in site.pages %}
+    {% if page.menu == 'nav' %}
+      {% if page.title %}
+        <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }} &raquo;</a><br/>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 </p>
