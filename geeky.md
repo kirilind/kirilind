@@ -1,3 +1,7 @@
+---
+menu: nav
+---
+
 
 ## geeky things
 
