@@ -1,0 +1,7 @@
+<p>
+{% for page in site.pages %}
+{% if page.title %}
+<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }} &raquo;</a><br/>
+{% endif %}
+{% endfor %}
+</p>
