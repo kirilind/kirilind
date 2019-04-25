@@ -12,6 +12,11 @@ menu: nav
 
 ### even more geeky things
 
+- [WebID / SoLid pod](https://auli.inrupt.net/profile/card#me)
+
+
+### indieweb
+
 + [Indieweb](http://indiewebcamp.com/)
 + [Indiewebify](http://indiewebify.me)
-- [WebID / SoLid pod](https://auli.inrupt.net/profile/card#me)
++ [IndieAuth](https://indieauth.com/)
