@@ -1,5 +1,6 @@
 ---
 menu: nav
+permalink: /presentations/
 ---
 
 ## Workshops & Presentations
